@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "./static/css/main.4113b259.css",
+    "main.js": "./static/js/main.3c9b8400.js",
+    "static/media/allaImg.jpg": "./static/media/allaImg.b001e92ebb6d52bb0327.jpg",
+    "static/media/jsx.jpg": "./static/media/jsx.2b139d52d7e7b606eee6.jpg",
+    "index.html": "./index.html",
+    "main.4113b259.css.map": "./static/css/main.4113b259.css.map",
+    "main.3c9b8400.js.map": "./static/js/main.3c9b8400.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4113b259.css",
+    "static/js/main.3c9b8400.js"
+  ]
+}
