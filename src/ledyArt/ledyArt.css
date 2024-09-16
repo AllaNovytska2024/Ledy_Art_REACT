@@ -1,0 +1,91 @@
+.App {
+  text-align: center;
+}
+
+.jsxImg {
+  height: 400px;
+  width: auto;
+  
+}
+
+.allaImg {
+  height: 140px;
+  width: auto;
+  border: none;
+  border-radius: 50%;
+  /* border-color: rgb(255, 0, 0); */
+  /* border-width: 13px; */
+}
+
+.but-greed {
+  /* grid-template-columns: none|auto|max-content|min-content|length|initial|inherit; */
+  padding: 10 px;
+  /* gap: 10px; */
+}
+
+.all-container {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 0px 50px;
+}
+
+header {
+  position: sticky;
+  background-color: red;
+  height: 90px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: italic;
+  padding: 5px;
+  margin: 0;
+}
+h1 {
+  margin: 0;
+}
+h2 {
+  margin-bottom: 10px;
+}
+p {
+  padding: 0;
+  margin: 10px;
+}
+main {
+  background-color: #2b5e35;
+  padding: 40px;
+
+  margin: 0px;
+  grid-column: auto;
+}
+footer {
+  background-color: gold;
+  height: 270px;
+  margin: 0px 10px 0px 40 px;
+  padding: 0px 10px 0px 60 px;
+  
+}
+.allaNovytska {
+  display: flex;
+  padding: 13px 5px 3px 5px;
+  margin: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: italic;
+  color: #2b5e35;
+  text-shadow: 8px 9px 15px;
+  text-shadow: #212c23;
+}
+
+span {
+  padding: 20px;
+  text-align: center;
+}
+
+.font-effect-fire-animation {
+  color: rgb(59, 87, 46);
+  text-shadow: 8px 9px 15px;
+  text-decoration: rgb(242, 234, 9);
+  text-align: center;
+  font-style: italic;
+
+  font-family: "Times New Roman", Times, bold, serif;
+}
+/* . */
