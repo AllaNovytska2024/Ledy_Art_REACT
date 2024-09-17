@@ -1,7 +1,7 @@
 .myButton {
   /* min-width:  70px; */
   display: flex;
-  max-width: 140px;
+  max-width: 160px;
   height: 30px;
   border: gold;
   border: double;
@@ -14,6 +14,16 @@
 
 .myButton:hover {
   background: #89d765;
+}
+
+.btnFavorite {
+  align-items: center;
+}
+
+.butLogin-input {
+  display: inline-flex;
+  /* align-items: end; */
+  /* justify-content: space-between; */
 }
 /* 
 .button-effect-fire-animation {

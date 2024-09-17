@@ -1,12 +1,24 @@
-import React from "react";
+// import React from "react";
 
-const MyInput = ({ name, type, placeholder, label }) => {
+// const MyInput = ({ name, type, placeholder, label }) => {
+//   return (
+//     <div>
+//       <label htmlFor={name}>{label}</label>
+//       <input id={name} name={name} type={type} placeholder={placeholder} />
+//     </div>
+//   );
+// };
+
+// export default MyInput;
+
+function MyInput({ label, placeholder, type, name }) {
   return (
-    <div>
-      <label htmlFor={name}>{label}</label>
-      <input id={name} name={name} type={type} placeholder={placeholder} />
-    </div>
+    <>
+      {/* сопроводительный текст из label */}
+      <label>{label}</label>
+      <input placeholder={placeholder} type={type} name={name} />
+    </>
   );
-};
+}
 
 export default MyInput;

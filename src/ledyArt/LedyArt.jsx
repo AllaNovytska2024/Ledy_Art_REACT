@@ -2,10 +2,10 @@ import React from "react";
 import "./ledyArt.css";
 import jsxImg from "../assets/image/jsx.jpg";
 import allaImg from "../assets/image/allaImg.jpg";
-import LoginForm from "../components/loginForm/LoginForm"
+import LoginForm from "../components/loginForm/LoginForm";
 import MyInput from "../components/myInput/MyInput";
-
-import myButton from "../components/myButton/MyButton";
+import Counter from "../components/counter/Count";
+import MyButton from "../components/myButton/MyButton";
 
 function LedyArt() {
   return (
@@ -14,26 +14,56 @@ function LedyArt() {
         <>
           <div className="App font-effect-fire-animation">
             <h1>ДОБРА ВСЕМ ДОБРЫМ ЛЮДЯМ !</h1>
-            
+            <button className="myButton btnFavorite" type="MyButton">
+              Add to favorites
+            </button>
+
+            <div className="butLogin-input">
+              <MyInput
+                name="login"
+                type="text"
+                placeholder="Введите логин"
+                label="Логин"
+              />
+            </div>
+            <div className="butLogin-input">
+              <MyInput
+                name="email"
+                type="email"
+                placeholder="Введите email"
+                label="Email"
+              />
+            </div>
+            <div className="butLogin-input">
+              <MyInput
+                name="password"
+                type="password"
+                placeholder="Введите пароль"
+                label="Пароль"
+              />
+            </div>
             <h2>Рада вас видеть на своем проекте.</h2>
           </div>
         </>
         <>
           <div className="but-greed ">
             <button className="myButton" type="MyButton">
-              обо мне
-            </button>
-            <button className="myButton" type="MyButton">
-              соцсети
-            </button>
-            <button className="myButton" type="MyButton">
-              профессии
-            </button>
-            <button className="myButton" type="MyButton">
-              хобби
-            </button>
-            <button className="myButton" type="MyButton">
               мои сайты
+            </button>
+            <button className="myButton" type="MyButton">
+              дизайны сада
+            </button>
+            <button className="myButton" type="MyButton">
+              дизайны дома
+            </button>
+            <button className="myButton" type="MyButton">
+              фото ладшафт
+            </button>
+            <button className="myButton" type="MyButton">
+              фото животных
+            </button>
+            <button className="myButton" type="MyButton">
+              полезные советы
             </button>
             <button className="myButton" type="MyButton">
               мои картины
@@ -70,12 +100,11 @@ function LedyArt() {
         <p className="App font-effect-fire-animation">
           Это пробный проект практика-работа в REACT
         </p>
-       
+
         <div className="App">
           <img className="jsxImg" src={jsxImg} alt=""></img>
         </div>
-      </main>
-      <footer>
+
         <div className="allaNovytska">
           <img className="allaImg" src={allaImg} alt="Alla"></img>
 
@@ -83,32 +112,30 @@ function LedyArt() {
             Здесь разместится инфа. <br />Я буду добавлять контент и учиться на
             своих ошибках!
           </span>
-          <button
-            className="myButton font-effect-fire-animation"
-            type="MyButton"
-          >
-            Add to favorites
-          </button>
 
-          <MyInput
-        name="login"
-        type="text"
-        placeholder="Введите логин"
-        label="Логин"
-      />
-      <MyInput
-        name="email"
-        type="email"
-        placeholder="Введите email"
-        label="Email"
-      />
-      <MyInput
-        name="password"
-        type="password"
-        placeholder="Введите пароль"
-        label="Пароль"
-      />
-    
+          <span>
+            Здесь разместятся фото. <br />Я буду добавлять контент и учиться на
+            своих ошибках!
+          </span>
+        </div>
+      </main>
+      <footer>
+        <div className="but-greed ">
+          <button className="myButton" type="MyButton">
+            обо мне
+          </button>
+          <button className="myButton" type="MyButton">
+            соцсети
+          </button>
+          <button className="myButton" type="MyButton">
+            профессии
+          </button>
+          <button className="myButton" type="MyButton">
+            хобби
+          </button>
+          <button className="myButton" type="MyButton">
+            мои сайты
+          </button>
         </div>
       </footer>
     </>

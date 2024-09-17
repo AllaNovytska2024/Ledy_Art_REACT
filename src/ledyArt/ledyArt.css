@@ -5,7 +5,6 @@
 .jsxImg {
   height: 400px;
   width: auto;
-  
 }
 
 .allaImg {
@@ -33,17 +32,18 @@
 header {
   position: sticky;
   background-color: red;
-  height: 90px;
+  height: 110px;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-style: italic;
   padding: 5px;
-  margin: 0;
+  margin: 10;
 }
+
 h1 {
   margin: 0;
 }
 h2 {
-  margin-bottom: 10px;
+  margin: 0px;
 }
 p {
   padding: 0;
@@ -52,16 +52,14 @@ p {
 main {
   background-color: #2b5e35;
   padding: 40px;
-
   margin: 0px;
   grid-column: auto;
 }
 footer {
   background-color: gold;
-  height: 270px;
+  height: 170px;
   margin: 0px 10px 0px 40 px;
   padding: 0px 10px 0px 60 px;
-  
 }
 .allaNovytska {
   display: flex;
@@ -77,6 +75,7 @@ footer {
 span {
   padding: 20px;
   text-align: center;
+  color: aqua;
 }
 
 .font-effect-fire-animation {
@@ -85,7 +84,6 @@ span {
   text-decoration: rgb(242, 234, 9);
   text-align: center;
   font-style: italic;
-
   font-family: "Times New Roman", Times, bold, serif;
 }
 /* . */
